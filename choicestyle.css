@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #585c68;
+  background: black;
   background-size: cover;
   background-position: center center;
   width: 100vw;
@@ -61,6 +61,7 @@ body {
   right: 10px;
   z-index: 1;
   opacity: 0;
+  margin: auto;
 }
 
 .option_item .option_inner .icon {
@@ -77,8 +78,8 @@ body {
 }
 
 .option_item .checkbox:checked ~ .option_inner.Facebook {
-  border-color: black;
-  color: black;
+  border-color: #424242;
+  color: #424242;
 }
 
 .option_item .checkbox:checked ~ .option_inner.Twitter {
@@ -142,7 +143,7 @@ body {
 }
 
 .option_item .option_inner.Facebook .tickmark {
-  border-color: black transparent transparent black;
+  border-color: #424242 transparent transparent #424242;
 }
 
 .option_item .option_inner.Twitter .tickmark {
@@ -171,4 +172,20 @@ body {
 
 .option_item .option_inner.Quora .tickmark {
   border-color: #4CAF50 transparent transparent #4CAF50;
+}
+
+.btn_center {
+  margin: auto;
+  padding: 30% 0 0;
+}
+
+.btn_type1 {
+  display: inline-block;
+  width: 120px;
+  height: 45px;
+  background: red;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  font-size: 13px;
 }

@@ -1,0 +1,27 @@
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: #fff;
+}
+
+.btn_center {
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.btn_type1 {
+  display: inline-block;
+  width: 120px;
+  height: 45px;
+  background: red;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  font-size: 13px;
+}
