@@ -25,55 +25,93 @@
     <<fieldset>
       <legend>필수 입력 상항</legend>
       <p>
+        <label for="id">아이디 : </label>
+        <input id="id" type="text" name="userid">
+      </p>
+      <p>
+        <label for="password">비밀번호 : </label>
+        <input id="password" type="password" name="userpw">
+      </p>
+      <p>
+        <label for="password">비밀번호 확인 : </label>
+        <input id="password" type="password" name="userpw">
+      </p>
+      <p>
+        <label for="nick">닉네임 : </label>
+        <input id="nick" type="text" name="usernick">
+      </p>
+      <p>
+        <span>플랫폼 : </span>
+        <label for="pc">PC</label>
+        <input id="pc" type="checkbox" value="PC" name="plat">
+
+        <label for="mobile">모바일</label>
+        <input id="mobile" type="checkbox" value="모바일" name="plat">
+
+        <label for="ps">PlayStation</label>
+        <input id="ps" type="checkbox" value="플스" name="plat">
+
+        <label for="xb">XBOX</label>
+        <input id="xb" type="checkbox" value="엑박" name="plat">
+
+        <label for="nin">Nintendo</label>
+        <input id="nin" type="checkbox" value="닌텐도" name="plat">
+
+        <label for="etc">기타</label>
+        <input id="etc" type="checkbox" value="기타" name="plat">
+      </p>
+      <p>
         <label for="name">이름 : </label>
         <input id="name" type="text" name="username">
+      </p>
+      <p>
+        <label for="datepicker">생년월일 : </label>
+        <input type="text" id="datepicker" name="date">
+        <!-- jqueryui.com -->
+      </p>
+      <p>
+        <span>성별 : </span>
+        <label for="male">남성</label>
+        <input id="male" type="radio" checked value="남성" name="sex">
+
+        <label for="female">여성</label>
+        <input id="female" type="radio" value="여성" name="sex">
+      </p>
+      <p>
+        <label for="phon">핸드폰 : </label>
+        <input id="phon" type="tel" name="userphon">
       </p>
       <p>
         <label for="email">이메일 : </label>
         <input id="email" type="email" name="useremail">
       </p>
       <p>
-        <label for="password">비밀번호 : </label>
-        <input id="password" type="password" name="userpw">
+        <span>거주지 : </span>
+        <select name="address">
+          <option value="">거주지를 선택해 주세요.</option>
+          <option value="서울시">서울시</option>
+          <option value="경기도">경기도</option>
+          <option value="인천광역시">인천광역시</option>
+          <option value="강원도">강원도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="대전광역시">대전광역시</option>
+          <option value="세종특별자치시">세종특별자치시</option>
+          <option value="부산광역시">부산광역시</option>
+          <option value="울산광역시">울산광역시</option>
+          <option value="대구광역시">대구광역시</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="광주광역시">광주광역시</option>
+          <option value="제주도">제주도</option>
+        </select>
       </p>
       </fieldset>
 
       <fieldset>
         <legend>부가 입력 사항</legend>
-        <p>
-          <label for="datepicker">생년월일 : </label>
-          <input type="text" id="datepicker" name="date">
-          <!-- jqueryui.com -->
-        </p>
-        <p>
-          <span>거주지 : </span>
-          <select name="address">
-            <option value="" disabled>거주지를 선택해 주세요.</option>
-            <option value="서울시">서울시</option>
-            <option value="경기도">경기도</option>
-            <option value="충청도">충청도</option>
-            <option value="제주도">제주도</option>
-          </select>
-        </p>
-        <p>
-          <span>취미 : </span>
-          <label for="read">독서</label>
-          <input id="read" type="checkbox" value="독서" name="interest">
-
-          <label for="travel">여행</label>
-          <input id="travel" type="checkbox" value="여행" name="interest">
-
-          <label for="coding">코딩</label>
-          <input id="coding" type="checkbox" value="코딩" name="interest">
-        </p>
-        <p>
-          <span>성별 : </span>
-          <label for="male">남성</label>
-          <input id="male" type="radio" checked value="남성" name="sex">
-
-          <label for="female">여성</label>
-          <input id="female" type="radio" value="여성" name="sex">
-        </p>
         <p>
           <span>사진을 등록해주세요.</span>
           <input type="file" name="avatar">

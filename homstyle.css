@@ -13,7 +13,7 @@ a {
 }
 
 #main{
-  background: url("games-2453777_1920.jpg") no-repeat;
+  background: black;
   background-size: cover;
   background-position: center center;
   width: 100vw;
@@ -28,6 +28,7 @@ a {
   top: 28px;
   font-size: 19px;
   font-family: 'Bungee Shade', cursive;
+  color: red;
 }
 
 #contents{
@@ -35,7 +36,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -87,7 +88,7 @@ a {
 
 #box input[type=submit]{
   width: 100px;
-  background-color: gray;
+  background-color: red;
   padding: 10px;
   border-radius: 0 25px 25px 0;
   color: #fff;
